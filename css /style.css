@@ -1,7 +1,9 @@
-h1 {
-  /*Using H2 on Page1. Changed font. */
-  color: red;
+body { 
   font-family: "Cabin Sketch", monospace;
-  font-weight: 600;
   font-style: normal;
+    color: blue;
+}
+
+h1 {
+  color: red;
 }
