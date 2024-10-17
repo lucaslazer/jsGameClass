@@ -47,20 +47,16 @@ const weekDays = { firstDay: "Sunday", secondDay: "Monday "};
 const allWeekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday" ];
 const dayNumber = [ 0, 1, 2, 3, 4, 5, 6, ]
 
-
-const myFirstName = "Luke";
-const mylastName = "Napper";
-
-
-
+let myFirstName = "Luke";
+const myLastName = " Napper";
 
 //Document Object Model (DOM)
 /* HTML elements now are objects
     we can connect properties, methods, events */
 
     let text = "Video player here";
-
     document.getElementById("newColor").innerHTML = "HOLA";
     document.getElementById("secondText").innerHTML = text;
-
+    document.getElementById("name").innerHTML = myFirstName + myLastName;
+    document.getElementById("name").style.color = "lightBlue";
     document.getElementById("secondText").style.color = "green";
