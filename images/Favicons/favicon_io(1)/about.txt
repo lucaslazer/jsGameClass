@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Fresca
+- Font Author: Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name "Fresca"
+- Font Source: https://fonts.gstatic.com/s/fresca/v22/6ae94K--SKgCzbM2Gr0W13DKPA.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
