@@ -48,7 +48,8 @@ const allWeekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thurday", "Fr
 const dayNumber = [ 0, 1, 2, 3, 4, 5, 6, ]
 
 
-const myName = "Luke";
+const myFirstName = "Luke";
+const mylastName = "Napper";
 
 
 
