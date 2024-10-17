@@ -57,7 +57,7 @@ const myName = "Luke";
 /* HTML elements now are objects
     we can connect properties, methods, events */
 
-    let text = "Hola again from my js file";
+    let text = "Video player here";
 
     document.getElementById("newColor").innerHTML = "HOLA";
     document.getElementById("secondText").innerHTML = text;
