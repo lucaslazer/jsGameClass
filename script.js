@@ -45,7 +45,7 @@ const weekDays = { firstDay: "Sunday", secondDay: "Monday "};
 
 // Array Objects
 const allWeekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday" ];
-const dayNumber = [ 0, 1, 2, 3, 4, 5, 6, ]
+const pageNumber = [ 0, 1, 2, 3, 4, 5, 6, ]
 
 let myFirstName = "Luke";
 const myLastName = " Napper";
