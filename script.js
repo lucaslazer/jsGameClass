@@ -49,7 +49,7 @@ const pageNumber = [ 0, 1, 2, 3, 4, 5, 6, ]
 
 let myFirstName = "Luke";
 const myLastName = " Napper";
-let numbie = pageNumber[0];
+let numbie = "pageNumber[]";
 
 //Document Object Model (DOM)
 /* HTML elements now are objects
@@ -58,6 +58,7 @@ let numbie = pageNumber[0];
     let text = "Video player here";
     document.getElementById("newColor").innerHTML = "PAGE # ";
     document.getElementById("secondText").innerHTML = text;
+    document.getElementById("numbie").innerHTML = [0];
     document.getElementById("name").innerHTML = myFirstName + myLastName;
     document.getElementById("name").style.color = "lightBlue";
     document.getElementById("secondText").style.color = "green";
