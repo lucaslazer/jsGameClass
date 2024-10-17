@@ -1,4 +1,4 @@
-alert("You are now at my Portfolio")
+alert("Entering my Portfolio site")
 console.log("Bonjour depuis le js fichier"); // comment
 console.log("Hello from the js file");
 
