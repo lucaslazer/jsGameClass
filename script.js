@@ -57,7 +57,7 @@ const myLastName = " Napper";
     let text = "Video player here";
     document.getElementById("newColor").innerHTML = "PAGE # ";
     document.getElementById("secondText").innerHTML = text;
-    document.getElementById("numbie").innerHTML = "pageNumber[1]";
+    document.getElementByClassName("pageNumber")[0].innerHTML;
     document.getElementById("name").innerHTML = myFirstName + myLastName;
     document.getElementById("name").style.color = "lightBlue";
     document.getElementById("secondText").style.color = "green";
