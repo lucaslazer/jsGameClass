@@ -55,7 +55,7 @@ const myLastName = " Napper";
     we can connect properties, methods, events */
 
     let text = "Video player here";
-    document.getElementById("newColor").innerHTML = "HOLA";
+    document.getElementById("newColor").innerHTML = "PAGE # ";
     document.getElementById("secondText").innerHTML = text;
     document.getElementById("name").innerHTML = myFirstName + myLastName;
     document.getElementById("name").style.color = "lightBlue";
