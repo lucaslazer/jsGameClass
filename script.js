@@ -1,4 +1,4 @@
-alert("hola desde la ventana de alerta")
+alert("You are now at my Portfolio")
 console.log("Bonjour depuis le js fichier"); // comment
 console.log("Hello from the js file");
 
@@ -47,21 +47,10 @@ const weekDays = { firstDay: "Sunday", secondDay: "Monday "};
 const allWeekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday" ];
 const dayNumber = [ 0, 1, 2, 3, 4, 5, 6, ]
 
-//undefined
-let toDay;
-console.log(toDay);
 
-const myName = "Lucas";
-
-let l = 7;
-let w = 5;
+const myName = "Luke";
 
 
-l = 9;
-w = 2;
-const RECTANGLE_AREA = l * w;
-console.log(RECTANGLE_AREA);
-//Null
 
 
 //Document Object Model (DOM)
