@@ -49,6 +49,7 @@ const pageNumber = [ 0, 1, 2, 3, 4, 5, 6, ]
 
 let myFirstName = "Luke";
 const myLastName = " Napper";
+let numbie = pageNumber[0];
 
 //Document Object Model (DOM)
 /* HTML elements now are objects
