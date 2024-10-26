@@ -1,28 +1,12 @@
 //alert("Entering my Portfolio site")
 //console.log("Bonjour depuis le js fichier"); // this created a popup. I disabled it for quicker loading
 //console.log("Hello from the js file");
-
-// declare a variable
-let car = "Volvo";
-console.log(car);
-
-// CamelCase
-let MyFavoriteThing;
-
-//snake
-let my_favorit_car;
-
 // const upper case
 const PI = 3.14;
-
-// Initialize a variable
-// The Assignment operator (=)
-// Consistancy 
 
 console.log("My favorite car: " + car);
 car = "Toyota"
 console.log(`My new favorite car: ${car}`);
-/* checking notes */
 // Datatypes
 
 // Strings
@@ -44,20 +28,27 @@ console.log ( x == 0 );
 const weekDays = { firstDay: "Sunday", secondDay: "Monday "};
 
 // Array Objects
-const allWeekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday" ];
 const pageNumber = [ 0, 1, 2, 3, 4, 5, 6, ]
 
+let roles = [
+{titles: ["Creative Director", "Outdoor Instructor", "3D artist", "Graphic Designer", "Mocap Director", "Map Designer"]
+worked: true}
+];
+delete roles.titles"Outdoor Instructor";
+
+let
+
 let myFirstName = "Luke";
-const myLastName = " Napper";
+let myLastName = " Napper";
+const lightBlue = style="color:DodgerBlue;"
 
 //Document Object Model (DOM)
 /* HTML elements now are objects
     we can connect properties, methods, events */
 
-    let text = "Video player here";
-    document.getElementById("newColor").innerHTML = "PAGE # ";
+    let text = "All assets created in collaboration with teams of contributors";
+    document.getElementById("newColor").innerHTML = "scrollingColor";
     document.getElementById("secondText").innerHTML = text;
     document.getElementByClassName("pageNumber")[0].innerHTML;
-    document.getElementById("name").innerHTML = myFirstName + myLastName;
-    document.getElementById("name").style.color = "lightBlue";
-    document.getElementById("secondText").style.color = "green";
+    document.getElementById("nameOfMine").innerHTML = myFirstName + myLastName;
+    document.getElementById("nameAGIN").style.color = "lightBlue";
