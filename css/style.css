@@ -3850,7 +3850,7 @@ fieldset:disabled .btn {
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
   --bs-navbar-toggler-font-size: 1.25rem;
-  --bs-navbar-toggler-icon-bg: url("https://3pwhqv.csb.app/OldAssignments/Assignment10/images/Dplogo.png' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-icon-bg: url("images/Favicons/favicon_io/favicon-16x16.png' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
   --bs-navbar-toggler-border-radius: var(--bs-border-radius);
   --bs-navbar-toggler-focus-width: 0.25rem;
@@ -3888,16 +3888,16 @@ fieldset:disabled .btn {
   color: var(--bs-navbar-brand-hover-color);
 }
 .navbar-nav {
-  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-x: 0.5rem;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-weight: ;
+  --bs-nav-link-font-weight: 0px;
   --bs-nav-link-color: var(--bs-navbar-color);
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
   display: flex;
   flex-direction: column;
-  padding-left: 0;
-  margin-bottom: 0;
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
   list-style: none;
 }
 .navbar-nav .nav-link.active,
@@ -4245,13 +4245,13 @@ fieldset:disabled .btn {
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
   --bs-navbar-active-color: #fff;
-  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-color: #5aa8e3;
   --bs-navbar-brand-hover-color: #fff;
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='https://github.com/lucaslazer/jsGameClass/blob/main/images/Vec/PrevousIcon.svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 [data-bs-theme="dark"] .navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='https://github.com/lucaslazer/jsGameClass/blob/main/images/Vec/NextIcon.svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .card {
   --bs-card-spacer-y: 1rem;
@@ -5983,9 +5983,9 @@ fieldset:disabled .btn {
 .carousel-control-next:hover,
 .carousel-control-prev:focus,
 .carousel-control-prev:hover {
-  color: #fff;
+  color: #0c5572;
   text-decoration: none;
-  outline: 0;
+  outline: 20px;
   opacity: 0.9;
 }
 .carousel-control-prev {
@@ -5997,17 +5997,17 @@ fieldset:disabled .btn {
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   display: inline-block;
-  width: 2rem;
-  height: 2rem;
+  width: 0rem;
+  height: 0rem;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
 }
 .carousel-control-prev-icon {
-  background-image: url("https://3pwhqv.csb.app/OldAssignments/Assignment10/images/PrevousIcon.svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='https://github.com/lucaslazer/jsGameClass/blob/main/images/Vec/PrevousIcon.svg' viewBox='0 0 16 16' fill='%23ff0000'%3e%3cpathd='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
 }
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='https://github.com/lucaslazer/jsGameClass/blob/main/images/Vec/NextIcon.svg' viewBox='0 16 16 16' fill='%23dc00ff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 .carousel-indicators {
   position: absolute;
@@ -6026,7 +6026,7 @@ fieldset:disabled .btn {
   box-sizing: content-box;
   flex: 0 1 auto;
   width: 30px;
-  height: 3px;
+  height: 30px;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
@@ -6035,9 +6035,9 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: padding-box;
   border: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  opacity: 0.5;
+  border-top: 10px;
+  border-bottom: 10px;
+  opacity: 1;
   transition: opacity 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -6063,7 +6063,7 @@ fieldset:disabled .btn {
   filter: invert(1) grayscale(100);
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: #ffffff;
+  background-color: #0daf6c;
   padding-top: 1rem;
 }
 .carousel-dark .carousel-caption {
@@ -6081,7 +6081,7 @@ fieldset:disabled .btn {
 }
 [data-bs-theme="dark"] .carousel .carousel-caption,
 [data-bs-theme="dark"].carousel .carousel-caption {
-  color: #ffffffcf;
+  color: #000000;
 }
 .spinner-border,
 .spinner-grow {

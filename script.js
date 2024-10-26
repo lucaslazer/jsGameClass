@@ -1,6 +1,6 @@
-alert("Entering my Portfolio site")
-console.log("Bonjour depuis le js fichier"); // comment
-console.log("Hello from the js file");
+//alert("Entering my Portfolio site")
+//console.log("Bonjour depuis le js fichier"); // this created a popup. I disabled it for quicker loading
+//console.log("Hello from the js file");
 
 // declare a variable
 let car = "Volvo";
