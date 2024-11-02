@@ -30,13 +30,19 @@ const weekDays = { firstDay: "Sunday", secondDay: "Monday "};
 // Array Objects
 const pageNumber = [ 0, 1, 2, 3, 4, 5, 6, ]
 
+// Arrays and mutations
 let roles = [
-{titles: ["Creative Director", "Outdoor Instructor", "3D artist", "Graphic Designer", "Mocap Director", "Map Designer"]
+{titles: ["Creative Director", "3D artist", "Graphic Designer", "Mocap Director", "Map Designer", "Outdoor Instructor"]
 worked: true}
 ];
+
 delete roles.titles"Outdoor Instructor";
 
-let
+let engines = ['Unity', 'Lumberyard', 'Cryengine', 'Unreal', 'GlassBox']
+engines.pop();
+animals.push('GoDot');
+
+// Objects
 
 let myFirstName = "Luke";
 let myLastName = " Napper";
@@ -50,5 +56,11 @@ const lightBlue = style="color:DodgerBlue;"
     document.getElementById("newColor").innerHTML = "scrollingColor";
     document.getElementById("secondText").innerHTML = text;
     document.getElementByClassName("pageNumber")[0].innerHTML;
-    document.getElementById("nameOfMine").innerHTML = myFirstName + myLastName;
+    document.getElementById('nameOfMine').innerHTML = myFirstName + myLastName;
     document.getElementById("nameAGIN").style.color = "lightBlue";
+
+const collection = document.getElementsByClassName("example");
+for (let i = 0; i < collection.length; i++) {
+  collection[i].style.backgroundColor = "red";
+}
+
