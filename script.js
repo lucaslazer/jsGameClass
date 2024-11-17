@@ -36,7 +36,7 @@ let roles = [
 worked: true}
 ];
 
-delete roles.titles"Outdoor Instructor";
+delete roles.titles ["Outdoor Instructor"];
 
 let engines = ['Unity', 'Lumberyard', 'Cryengine', 'Unreal', 'GlassBox']
 engines.pop();
