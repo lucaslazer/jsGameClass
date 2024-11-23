@@ -28,7 +28,7 @@ console.log ( x == 0 );
 const weekDays = { firstDay: "Sunday", secondDay: "Monday "};
 
 // Array Objects
-const pageNumber = [ 0, 1, 2, 3, 4, 5, 6, ]
+const pageNumber = [0, 1, 2, 3, 4, 5, 6,]
 
 // Arrays and mutations
 let roles = [
@@ -57,6 +57,7 @@ const lightBlue = style="color:DodgerBlue;"
     document.getElementById("secondText").innerHTML = text;
     document.getElementByClassName("pageNumber")[0].innerHTML;
     document.getElementById('nameOfMine').innerHTML = myFirstName + myLastName;
+    document.getElementById("nameOfMine").innerHTML = "New text!";
     document.getElementById("nameAGIN").style.color = "lightBlue";
 
 const collection = document.getElementsByClassName("example");

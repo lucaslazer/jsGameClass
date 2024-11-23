@@ -193,20 +193,31 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-  <br>
-
-    <!-- below this line is footer -->
-    <footer>
-      <div class="container mt-3">
-        <p id ="nameOfMine"> <h2 id ="secondText"></h2> </p><p id ="pageNumber"></p>
-        <div class="container-fluid mt-3 example">
-        </div>
-            <p id='nameOfMine'> </p>
-            <br>
-            <p>Please<a class="link" href="https://longdogechallenge.com/"> click here</a></p>
+<!-- below this line is footer -->
+  <footer>
+    <div id="footer" style="margin-bottom: 100px; background-color:rgb(50,50,50);">
+      <div style="display:inline-flex; color:rgb(255, 255, 255); padding-left:5px">
+        <p id="nameOfMine">Lucky</p>
+          <script>
+            document.getElementById("nameOfMine").innerHTML = "Copywrite: Lucas";
+          </script>
       </div>
-    </footer>
-
-  <script src= "script.js"></script>
+      <div style="display:block; float:right; color:white; padding-right:20px">
+        <p id="secondText">Naahper</p>
+         <script>
+           document.getElementById("secondText").innerHTML = "Napper";
+          </script>
+      </div>
+      <div id="timeStamp" style="color:grey; margin-top:20px">
+         <script>
+           document.getElementById("timeStamp").innerHTML = "Date : " + Date(); 
+         </script> 
+     </div>
+    </div>
+   <div id="pageNumber">Page + [1]</p>
+      <p>Please<a class="link" href="https://longdogechallenge.com/"> click here</a></p>
+   </div> 
+  </footer>
+    <script src= "script.js"></script>
 </body>
 </html>
