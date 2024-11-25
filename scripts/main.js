@@ -49,12 +49,25 @@ const lightBlue = style="color:DodgerBlue;"
 
 //let text = "All assets created in collaboration with teams of contributors";
 //document.getElementById("newColor").innerHTML = "scrollingColor";
-//document.getElementById("secondText").innerHTML = text;
 //document.getElementByClassName("pageNumber")[0].innerHTML;
 //document.getElementById('nameOfMine').innerHTML = myFirstName + myLastName;
 //document.getElementById("nameOfMine").innerHTML = "New text!";
 //document.getElementById("nameAGIN").style.color = "lightBlue";
 
-const myHeading = document.querySelector("h1");
-myHeading.textContent = "Hello world!";
+document.getElementById("role1").innerHTML = "Creative Director";
+document.getElementById("role2").innerHTML = "3D artist";
+document.getElementById("role3").innerHTML = "Graphic Designer";
+document.getElementById("role4").innerHTML = "Mocap Director";
+document.getElementById("role5").innerHTML = "Chill Guy";
+
+const changeRole = document.querySelector("p5");
+changeRole.textContent = "Map Director";
+
+document.querySelector("h1").addEventListener("click", function () {
+    alert("Ouch! Stop poking me!");
+  });
+
+
+
+
 
