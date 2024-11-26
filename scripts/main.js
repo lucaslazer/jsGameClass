@@ -1,5 +1,6 @@
 
 //Boolians to test debug output ::= console.log
+/*
 let y = true;
 const x = false;
 
@@ -37,7 +38,7 @@ function Apage() {
     document.getElementById("par").innerHTML = k;
     document.getElementById("enterPage").innerHTML = "Output";
 }
-
+*/
 
 // Arrays and mutations
 let titles = ["Creative Director", "3D artist", "Graphic Designer", "Mocap Director", "Map Designer", "Outdoor Instructor"];
@@ -82,7 +83,7 @@ document.querySelector("h1").addEventListener("click", function () {
     2 : "value2", //property can be a number
     "property n" : "value3" //Property can be a string
   };
-*/
+
 
   const weekMenu = {
     "monday" : "burritos",
@@ -159,6 +160,8 @@ console.log(menuThree[1].tuesday[0]);
 const theDate = new Date();
 console.log(theDate);
 
+*/
+
 let profile1 = {
   name: "john",
   status: "complicated",
@@ -178,3 +181,29 @@ let profile1 = {
 console.log(profile1.children[0].friends[0]);
 console.log(profile1.children[0].friends);
 console.log(profile1.children);
+
+// loops
+//start by creating an array 
+/*
+const year = ["jan", "feb", "mar", "apr", "may", "jun"]
+console.log(year);
+document.getElementById("firstSixMos").innerHTML = year;
+//printing one index
+console.log(year[2]);
+*/
+
+//for (const value of iterable)code block to be executed
+/*
+for ( const month of year) {
+  console.log(month)
+}
+*/
+
+//for (expression 2; expression 3) code block to be executed
+/*
+const year = ["jan", "feb", "mar", "apr", "may", "jun"]
+for( let i = 0; i < year.length; i++) {
+    console.log("from the loop " + year[i])
+}
+*/
+//16;00
