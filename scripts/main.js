@@ -160,19 +160,21 @@ const theDate = new Date();
 console.log(theDate);
 
 let profile1 = {
-  name: "Lucas Napper",
-  status: "studing",
+  name: "john",
+  status: "complicated",
   children: [
     {
-      name: "Odin",
+      name: "maya",
       age: 5,
       friends: [
-        { name: "Tibs", age: 7 },
-        { name: "Jenny", age: 35 },
-        { name: "JC", age: 42 },
+        { name: "nina", age: 4 },
+        { name: "lola", age: 5 }
       ]
     },
-    { name: "Kiki", age: 16, children: [] }
+    { name: "joe", age: 2, children: [] }
   ]
 };
-console.log(profile1);
+
+console.log(profile1.children[0].friends[0]);
+console.log(profile1.children[0].friends);
+console.log(profile1.children);
