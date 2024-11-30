@@ -1,5 +1,5 @@
 
-# js_class
+# Condtionals homework
 
 [my website link](https://lucaslazer.github.io/jsGameClass/Conditions/index.html)
 
