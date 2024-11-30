@@ -1,5 +1,7 @@
-https://lucaslazer.github.io/jsGameClass/Conditions/index.html
 
+# js_class
+
+[my website link](https://lucaslazer.github.io/jsGameClass/Conditions/index.html)
 
 Conditionals:
 
