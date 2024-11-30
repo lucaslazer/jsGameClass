@@ -1,19 +1,31 @@
 
-# Condtionals homework
+# Functions homework
 
-[my website link](https://lucaslazer.github.io/jsGameClass/Conditions/index.html)
+[my website link](https://lucaslazer.github.io/jsGameClass/functions/index.html)
 
-Conditionals:
+Functions:
 
-	1) Wrote a program to calculated the change to be dispensed from a vending machine. 
-  			The machine accepts a single dollar bill. The items in the machine cost between 5 cents and 1dollar, in 5-cent increments 
-     			(5, 10, 20, 25, 30, 35, . . . 90, 95, or 100).
-    	2) Used the example:
-			Price of item: 35 cents
-			Displaying: 
-			You bought an item for 35 cents and gave me a dollar, so your change is: 
-			2 quarter(s)
-			1 dime(s)
-			1 nickel(s)
-	3) Completed the conditionals assignment by adding an input box and alert pop with the change result to the html page file.
+
+	1)Function Exercise 1
+
+	Converted Celsius valueS to Fahrenheit using a conversion formula
+	Used the formula (Celsius × 9/5) + 32 = Fahrenheit
+	Wrote a function to calculate Fahrenheit
+	using one argument: celsius
+	Wrote the program to do Calculations and return the values
+	Funct calls three times with different sets of values(arguments) needed to be entered by user. Example calculateFahrenheit(20); 
+	*Use console.log to verify the return value.
+ 
+	2) Function Exercise 2
+
+	How old is a dog in human years? Calculate it!
+	Write a function named calculateDogAge that:
+	Takes one argument: the dog's age.
+	Calculate your dog's age based on the conversion rate of 1 human year to 7 dog years.
+	Outputs the result to the screen: "Your doggie is NN years old in dog years!"
+	Return the value 
+	Call the function three times with different sets of values(arguments). EXAMPLE: calculateDogAge(1);
+	Bonus: Add an additional parameter to the function that takes the conversion rate of human to dog years. EXAMPLE: calculateDogAge(1, dog name);
+	Outputs the result to the screen like so: "Name of the dog is NN years old in dog years!"
+	*Use console.log to verify the return value.
     
