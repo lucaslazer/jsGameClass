@@ -1,3 +1,21 @@
-h1 {
-    color: indigo;
-}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, rgb(255, 233, 244), rgb(255, 201, 228));
+  }
+  
+  .title {
+    color: hotpink;
+    font-size: 36px;
+  }
+  
+  input, button {
+    margin-top: 10px;
+    padding: 18px;
+    font-size: 26px;
+  }
+  
+  #results p {
+    font-size: 38px;
+    margin: 20px;
+  }
+  

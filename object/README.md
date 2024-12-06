@@ -1,7 +1,7 @@
 
-# Condtionals homework
+# Objects homework
 
-[my website link](https://lucaslazer.github.io/jsGameClass/Conditions/index.html)
+[my website link](https://lucaslazer.github.io/jsGameClass/object/index.html)
 
 Conditionals:
 
