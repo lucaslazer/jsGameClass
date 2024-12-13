@@ -42,7 +42,7 @@ function Apage() {
 
 // Arrays and mutations
 let titles = ["Creative Director", "3D artist", "Graphic Designer", "Mocap Director", "Map Designer", "Outdoor Instructor"];
-
+console.log(titles);
 delete titles ["Outdoor Instructor"];
 
 let engines = ['Unity', 'Lumberyard', 'Cryengine', 'Unreal', 'GlassBox']

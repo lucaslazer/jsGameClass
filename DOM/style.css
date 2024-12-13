@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+
+.colorOne {
+    color: hotpink; 
+
+}
+.colorTwo {
+    color: green;
+    font-size: 40px;
+   /* display: none; */
+}
