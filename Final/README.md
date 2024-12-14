@@ -1,7 +1,7 @@
 
 # functions homework
 
-[my website link](https://lucaslazer.github.io/jsGameClass/functions/index.html)
+[my website link](https://lucaslazer.github.io/jsGameClass/Final/index.html)
 
 Final
 
