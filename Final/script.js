@@ -1,26 +1,47 @@
-//alert("hello");
-
-document.querySelector("#buttons").addEventListener("click", event => {
-  let target = event.target; // html tag
-  //console.log(target);
-
-  let value = target.innerHTML; // the value from the buttom inside the html tag
-  console.log(value);
-
-  //Step 1:
-  // create a variable array Rock, Paper, Sicssors
-  // generate a radom number 0-2 index 0, index 1, index 2
-  // console.log
-
-  //Step 3:
-  // move everything inside the function created in step 2
-  // console.log
-
-  //Step 4:
-  // Add the if statements to compare the values
-  // console.log
-  // (user value rock && random value is paper ){ you loose! } else if ()
-
-  //Step 5:
-  //Print in the html file(the console.log value);
+document.querySelector("#blackButts").addEventListener("click", function(event) {
+  if (event.target.tagName === 'BUTTON') {
+    roShamBo(event.target.id);
+  }
 });
+
+/* some buttons for user input */
+
+const choices = ["rock", "paper", "scissors"];
+// Step 1: Created a variable array Rock, Paper, Scissors
+
+const winnerMessages = ["Winner!", "Winner Winner, Chicken Dinner!", "You Win!", "Nice!"];
+/* added a winning msgs array */
+
+function getRandomWinnerMessage() {
+  return winnerMessages[Math.floor(Math.random() * winnerMessages.length)];
+}
+//Step 3: moved inside
+
+function roShamBo(userChoice) {
+  const semiRandChoice = choices[Math.floor(Math.random() * choices.length)];
+  console.log("Your Choice!!!: " + userChoice + "!!!");
+  console.log("A Randomised Choice: " + semiRandChoice + "???");
+  // Step 2: Generate a random number
+
+  // step 4: Add the if statements to compare the values
+  let result = "";
+  if (
+    (userChoice === "rock" && semiRandChoice === "scissors") ||
+    (userChoice === "paper" && semiRandChoice === "rock") ||
+    (userChoice === "scissors" && semiRandChoice === "paper")
+  ) {
+    result = getRandomWinnerMessage();
+  } else if (
+    (userChoice === "scissors" && semiRandChoice === "rock") ||
+    (userChoice === "rock" && semiRandChoice === "paper") ||
+    (userChoice === "paper" && semiRandChoice === "scissors")
+  ) {
+    result = "You lose!";
+  } else {
+    result = "It's a tie!";
+  }
+  // edge case bucket:
+
+  document.getElementById("result").innerText = result;
+  // Step 5: Print in the HTML file (the console.log value)
+}
