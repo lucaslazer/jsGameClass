@@ -4,11 +4,21 @@ let titles = ["Creative Director", "3D artist", "Graphic Designer", "Mocap Direc
 console.log(titles);
 console.log(titles[2]);
 
-const year = ["January", "February", "March", "April", "May", "June"];
+const year = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 console.log(year);
 
-document.getElementById("firstSixMonths").innerHTML = year;
-//console.log(year[2]);
+let firstSixMonths = [];
+for (let i = 0; i < year.length; i++) {
+  if (i < 6) {
+    firstSixMonths.push(year[i]);
+  } else {
+    //Not in the six months
+    console.log(year[i] + " is not in the first six months of the year.");
+  }
+}
+console.log(firstSixMonths);
+document.getElementById("firstSixMonths").innerHTML = firstSixMonths.join(", ");
+//console.log(firstSixMonths);
 
 /* ===================== for loop ===================== */
 /* SYNTAX
